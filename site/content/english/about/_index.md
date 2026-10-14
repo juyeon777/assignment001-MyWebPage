@@ -1,5 +1,5 @@
 ---
-title: "Hey, I am John Doe!"
+title: "Hey, I am JuYeon Park!"
 meta_title: "About"
 description: "this is meta description"
 image: "/images/image-placeholder.png"
@@ -7,14 +7,15 @@ layout: "about"
 draft: false
 ---
 
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis illum nesciunt commodi vel nisi ut alias excepturi ipsum, totam, labore tempora, odit ex iste tempore sed. Fugit voluptatibus perspiciatis assumenda nulla ad nihil, omnis vel, doloremque sit quam autem optio maiores, illum eius facilis et quo consectetur provident dolor similique! Enim voluptatem dicta expedita veritatis repellat dolorum impedit, provident quasi at.
+해당 About 탭에는 아래와 같은 내용이 들어있습니다.
+1. 관심분야와 그 이유
+2. 학습 목표 및 다음 행동
+3. 역량 및 실제 사례
 
-### This is a title
+##### 관심분야와 그 이유
 
-* Lorem ipsum, dolor sit amet
-* Enim voluptatem dicta expedita veritatis
-* Fugit voluptatibus perspiciatis assumenda
-* Enim voluptatem dicta expedita
-* Corporis illum nesciunt commodi vel
+* 일본어 학습
+* 애니 보기
 
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis illum nesciunt commodi vel nisi ut alias excepturi ipsum, totam, labore tempora, odit ex iste tempore sed. Fugit voluptatibus perspiciatis assumenda nulla ad nihil, omnis vel, doloremque sit quam autem optio maiores, illum eius facilis et quo consectetur provident dolor similique! Enim voluptatem dicta expedita veritatis repellat dolorum impedit, provident quasi at. Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis illum nesciunt commodi vel nisi ut alias excepturi ipsum, totam, labore tempora, odit ex iste tempore sed. Fugit voluptatibus perspiciatis assumenda nulla ad nihil, omnis vel, doloremque sit quam autem optio maiores, illum eius facilis et quo consectetur provident dolor similique! Enim voluptatem dicta expedita veritatis repellat dolorum impedit, provident quasi at.
+현재 프로젝트 진행 중인 2026.10.16 기준, 듀오링고 일본어 연속 학습 200일을 진행했습니다.
+애니메이션 보는 게 취미이며, 이에 따라 자연스레 일본어 학습에도 관심을 가지게 되었습니다.
