@@ -6,5 +6,5 @@ banner:
   button:
     enable: true
     label: "이력서 보기"
-    link: "https://app.sitepins.com/new/clone?name=Hugoplate&repository=https://github.com/zeon-studio/hugoplate?aff=hugoplate"
+    link: https://juyeon777.github.io/assignment001-MyWebPage/
 ---
