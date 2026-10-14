@@ -3,9 +3,9 @@
 초급프로젝트 과제1.
 
 ## 사용 환경
-- OS:
-- Python:
-- Hugo: 
+- OS: macOS
+- Python: 3.12
+- Hugo: 0.165.0 (extended)
 - Theme: Hugoplate
 
 ## 설치 및 로컬 실행
@@ -25,9 +25,9 @@ git add .
 git commit -m "메시지"
 git push origin main
 \`\`\`
-4. push 시 `.github/workflows/[워크플로파일명].yml`이 자동 실행되어 GitHub Actions가 빌드·배포 수행
-5. 배포 상태 확인: [Actions URL]
-6. 반영 확인: [공개 사이트 URL]
+4. push 시 `.github/workflows/hugo-pages.yml`이 자동 실행되어 GitHub Actions가 빌드·배포 수행
+5. 배포 상태 확인: https://github.com/juyeon777/assignment001-MyWebPage/actions
+6. 반영 확인: https://juyeon777.github.io/assignment001-MyWebPage/
 
 ## 테마 출처 및 라이선스
 - 테마명: Hugoplate
@@ -35,5 +35,5 @@ git push origin main
 - 라이선스: [예: MIT License] — LICENSE 파일 참고
 - 이 저장소의 콘텐츠(자기소개, 활동 내용)는 본인이 직접 작성했으며, 일부 텍스트는 AI(예: Claude/ChatGPT)의 도움을 받아 초안을 작성 후 직접 검토·수정함
 
-## 🙈 제외 파일 (P55)
+## 제외 파일 (P55)
 `.gitignore`로 다음 파일 제외: Hugo 빌드 결과물(`public/`, `resources/`), OS/IDE 임시파일(`.DS_Store`, `.vscode/` 등)
