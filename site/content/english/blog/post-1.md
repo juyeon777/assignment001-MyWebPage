@@ -6,7 +6,7 @@ date: 2026-10-14
 image: "/images/image-placeholder.png"
 categories: ["Application", "Data"]
 author: "Yeon"
-tags: ["아두이노", "tailwind"]
+tags: ["IoT", "Arduino", "Raspberry Pi", "MQTT", "React", "Spring Boot", "WebSocket", "실시간 모니터링"]
 draft: false
 ---
 
