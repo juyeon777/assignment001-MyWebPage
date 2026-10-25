@@ -2,15 +2,9 @@
 # Banner
 banner:
   title: "환영합니다. 박주연의 포트폴리오 사이트입니다."
-  image: "/images/banner.png"
-  button:
-    enable: true
-    label: "이력서 보기"
-    link: https://juyeon777.github.io/assignment001-MyWebPage/
+  description: "활동명: Yeon 안녕하세요. 전북대학교 IT지능정보공학과에 재학 중인 박주연입니다. 풀스택 개발자를 목표로 노력하고 있습니다."
+
 ---
 
-### 활동명: Yeon
 
-안녕하세요. 전북대학교 IT지능정보공학과에 재학 중인 박주연입니다.
-풀스택 개발자를 목표로 노력하고 있습니다.
 
