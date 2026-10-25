@@ -15,6 +15,7 @@ cd assignment001-MyWebPage
 hugo server -D
 \`\`\`
 로컬 확인: http://localhost:1313
+배포 사이트: https://juyeon777.github.io/assignment001-MyWebPage/
 
 ## 콘텐츠 수정 및 재배포
 1. 콘텐츠는 'content/' 폴더 내 Markdown 파일에서 수정
