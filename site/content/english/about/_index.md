@@ -45,3 +45,10 @@ draft: false
 - HTML/CSS와 JavaScript를 활용한 웹 페이지 및 기능 구현 경험
 - Python과 C를 활용한 프로그래밍 실습 경험
 - Git과 GitHub를 이용한 소스 코드 관리 및 프로젝트 협업 경험
+
+**2. IoT 및 데이터 통신**
+
+- Arduino와 Raspberry Pi를 활용한 센서 데이터 수집 및 기기 제어 경험
+- MQTT를 이용한 센서 데이터 전달 구조 구현
+- RabbitMQ를 포함한 메시지 전달 파이프라인 구성 및 데이터 흐름 검증
+- WebSocket 기반 실시간 데이터 전달 및 모니터링 기능 구현 경험
