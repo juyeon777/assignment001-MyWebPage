@@ -1,7 +1,7 @@
 ---
 title: "Hey, I am JuYeon Park!"
 meta_title: "About"
-description: "this is meta description"
+description: "저의 관심 분야, 학습 목표 및 기술 역량을 소개합니다."
 image: "/images/image-placeholder.png"
 layout: "about"
 draft: false
