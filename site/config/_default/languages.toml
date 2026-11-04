@@ -1,6 +1,8 @@
-################ English language ##################
+################ Korean language ##################
 [en]
-label = "En"
-locale = "en-us"
+label = "Ko"
+locale = "ko-kr"
+languageCode = "ko-kr"
+languageName = "한국어"
 contentDir = "content/english"
 weight = 1
