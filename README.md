@@ -72,10 +72,26 @@ git push origin main
 변경이 바로 안 보이면 브라우저 캐시를 비우고 새로고침하세요.
 
 ## 테마 출처 및 라이선스
+
 - 테마명: Hugoplate
-- 원본 저장소: https://github.com/zeon-studio/hugoplate
-- 라이선스: [예: MIT License] — LICENSE 파일 참고
-- 이 저장소의 콘텐츠(자기소개, 활동 내용)는 본인이 직접 작성했으며, 일부 텍스트는 AI(예: Claude/ChatGPT)의 도움을 받아 초안을 작성 후 직접 검토·수정함
+- 제작: Zeon Studio
+- 원본 저장소: <https://github.com/zeon-studio/hugoplate>
+- 라이선스: **MIT License** (저장소 루트 `LICENSE` 파일, `site/themes/template/LICENSE`에 원문 유지)
+
+테마의 저작권 고지는 삭제하지 않고 유지했습니다. 공개 사이트 푸터에도
+`테마 Hugoplate by Zeon Studio (MIT License)` 표기가 그대로 나옵니다.
+
+## 자료 출처 구분
+
+| 자료                            | 구분          | 내용                                                                 |
+| ------------------------------- | ------------- | -------------------------------------------------------------------- |
+| 자기소개·대표 활동 본문         | 본인 작성     | 초안 작성에 AI(Claude, ChatGPT)를 활용하고 본인이 직접 검토·수정      |
+| `site/static/images/seedlab-dashboard.png` | 본인 촬영 | 본인이 참여한 캡스톤 프로젝트의 실행 화면을 직접 캡처                 |
+| 사이트 설정·레이아웃 수정       | 본인 수정     | 언어 설정, 로고·푸터, 배너 이미지 조건부 출력, 제목 레벨 등           |
+| 테마 레이아웃·스타일 원본       | 외부 자료     | Hugoplate (MIT) — 위 출처 참고                                        |
+
+About 페이지는 프로필 이미지를 사용하지 않고 텍스트로만 소개합니다.
+출처와 이용 조건을 확인할 수 없는 외부 이미지는 사용하지 않았습니다.
 
 ## 제외 파일 (P55)
 `.gitignore`로 다음 파일 제외: Hugo 빌드 결과물(`public/`, `resources/`), OS/IDE 임시파일(`.DS_Store`, `.vscode/` 등)
