@@ -6,7 +6,8 @@
           {{ if .Params.image }}
             {{ partial "image" (dict "Src" .Params.image "Context" .Page "Alt" .Title "Class" "mx-auto rounded mb-6" ) }}
           {{ end }}
-          <h2 class="h3 mb-6">{{ .Title }}</h2>
+          {{/* 페이지 제목이므로 h1을 쓴다. 크기는 h3 클래스가 담당해 외관은 그대로. */}}
+          <h1 class="h3 mb-6">{{ .Title }}</h1>
           <div class="content">{{ .Content }}</div>
         </div>
       </div>
