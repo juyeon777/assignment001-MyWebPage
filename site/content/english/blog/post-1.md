@@ -164,10 +164,10 @@ Arduino와 Raspberry Pi를 이용해 센서 데이터를 수집하고, 메시지
 
 ## 8. 프로젝트 저장소 및 배포 사이트
 
-- **GitHub 저장소:** [SeedLabDigitalTwin_System](https://github.com/capstone-SeedLabSystem/SeedLabDigitalTwin_System)
-- **배포 사이트:** [seedlab.headit.kr](https://seedlab.headit.kr/)
+- **GitHub 저장소:** `capstone-SeedLabSystem/SeedLabDigitalTwin_System` (팀 비공개 저장소로 외부 열람 불가)
+- **배포 사이트:** `seedlab.headit.kr` (프로젝트 진행 당시 사용한 주소이며 현재 운영 종료)
 
-배포 사이트는 프로젝트 진행 당시 사용했던 주소이나, 현재는 정상적으로 이용할 수 없는 상태입니다. 따라서 현재 접속 가능한 서비스로 안내하지 않으며, 프로젝트 구현 내용은 GitHub 저장소의 소스 코드를 통해 확인할 수 있습니다.
+두 주소 모두 현재 접속할 수 없으므로 열리지 않는 링크를 걸지 않고 주소만 표기합니다. 프로젝트의 구현 내용은 위의 담당 역할·구현 내용과 아래 산출물 설명으로 확인할 수 있습니다.
 
 
 ### 개인 기여 및 통합 검증
@@ -190,10 +190,10 @@ Arduino와 Raspberry Pi를 이용해 센서 데이터를 수집하고, 메시지
 
 ## 8. 프로젝트 저장소 및 참고 자료
 
-- **GitHub 저장소:** [SeedLabDigitalTwin_System](https://github.com/capstone-SeedLabSystem/SeedLabDigitalTwin_System)
-- **배포 사이트:** [seedlab.headit.kr](https://seedlab.headit.kr/)
+- **GitHub 저장소:** `capstone-SeedLabSystem/SeedLabDigitalTwin_System` (팀 비공개 저장소로 외부 열람 불가)
+- **배포 사이트:** `seedlab.headit.kr` (프로젝트 진행 당시 사용한 주소이며 현재 운영 종료)
 
-배포 사이트는 프로젝트 진행 당시 사용했던 주소이나, 현재는 정상적으로 이용할 수 없는 상태입니다. 따라서 현재 운영 중인 서비스로 안내하지 않습니다.
+두 주소 모두 현재 접속할 수 없으므로 열리지 않는 링크를 걸지 않고 주소만 표기합니다.
 
 프로젝트의 구현 내용은 소스 코드와 관련 문서를 통해 확인할 수 있도록 정리했습니다.
 
