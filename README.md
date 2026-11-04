@@ -39,17 +39,37 @@ python3 -m http.server 8000 --directory public
 배포 사이트: <https://juyeon777.github.io/assignment001-MyWebPage/>
 
 ## 콘텐츠 수정 및 재배포
-1. 콘텐츠는 'content/' 폴더 내 Markdown 파일에서 수정
-2. 전역 설정은 'hugo.toml'에서 수정 (baseURL 등)
-3. 수정 후:
-\`\`\`bash
+
+### 수정할 파일 위치
+
+| 바꿀 내용        | 파일                                             |
+| ---------------- | ------------------------------------------------ |
+| 홈 배너          | `site/content/english/_index.md`                 |
+| 자기소개(About)  | `site/content/english/about/_index.md`           |
+| 대표 활동 글     | `site/content/english/blog/post-1.md`            |
+| 대표 활동 목록   | `site/content/english/blog/_index.md`            |
+| 사이트 제목·언어 | `site/hugo.toml`                                 |
+| 로고·푸터·SEO    | `site/config/_default/params.toml`               |
+| 메뉴             | `site/config/_default/menus.en.toml`             |
+| 소셜 링크        | `site/data/social.json`                          |
+| 이미지           | `site/static/images/` (본문에서는 `/images/...`) |
+
+배포 주소(`baseURL`)는 `.github-pages.json`과 `site/pages.json`이 관리하므로 직접 고치지 않습니다.
+
+### 재배포 절차
+
+```bash
 git add .
-git commit -m "메시지"
+git commit -m "수정 내용"
 git push origin main
-\`\`\`
-4. push 시 `.github/workflows/hugo-pages.yml`이 자동 실행되어 GitHub Actions가 빌드·배포 수행
-5. 배포 상태 확인: https://github.com/juyeon777/assignment001-MyWebPage/actions
-6. 반영 확인: https://juyeon777.github.io/assignment001-MyWebPage/
+```
+
+1. `main`에 push하면 `.github/workflows/hugo-pages.yml`이 자동 실행됩니다.
+2. 배포 상태 확인: <https://github.com/juyeon777/assignment001-MyWebPage/actions>
+3. 워크플로가 `build` → `deploy` 두 단계를 모두 통과하면 반영됩니다.
+4. 공개 화면 확인: <https://juyeon777.github.io/assignment001-MyWebPage/>
+
+변경이 바로 안 보이면 브라우저 캐시를 비우고 새로고침하세요.
 
 ## 테마 출처 및 라이선스
 - 테마명: Hugoplate
