@@ -10,9 +10,13 @@
       </a>
     </div>
     <!-- navbar toggler -->
-    <input id="nav-toggle" type="checkbox" class="hidden" />
+    {{/* display:none 인 요소는 Tab으로 갈 수 없어 좁은 화면에서 키보드로
+         메뉴를 열 방법이 없었다. 화면에서는 감추되 포커스는 받도록
+         sr-only 를 쓰고, 라벨에 역할과 이름을 준다. */}}
+    <input id="nav-toggle" type="checkbox" class="sr-only" />
     <label
       for="nav-toggle"
+      aria-label="{{ T `menu-open` | default `Menu Open` }}"
       class="order-3 cursor-pointer flex items-center lg:hidden text-text-dark dark:text-white lg:order-1">
       <svg id="show-button" class="h-6 fill-current block" viewBox="0 0 20 20">
         <title>{{ T "menu-open" | default "Menu Open" }}</title>
