@@ -24,10 +24,14 @@
               {{ end }}
             {{ end }}
           </div>
-          <div class="col-12">
-            {{/* image modules comes from https://github.com/gethugothemes/hugo-modules/tree/master/images */}}
-            {{ partial "image" (dict "Src" .image "Alt" "Banner image" "Loading" "eager" "Class" "mx-auto lg:!max-w-[800px]" "DisplayXL" "800x" ) }}
-          </div>
+          {{/* 배너 이미지를 지정한 경우에만 그린다. 지정하지 않으면 빈 Src가
+               baseURL로 해석되어 깨진 이미지 요청이 발생하므로 자리를 비운다. */}}
+          {{ with .image }}
+            <div class="col-12">
+              {{/* image modules comes from https://github.com/gethugothemes/hugo-modules/tree/master/images */}}
+              {{ partial "image" (dict "Src" . "Alt" "Banner image" "Loading" "eager" "Class" "mx-auto lg:!max-w-[800px]" "DisplayXL" "800x" ) }}
+            </div>
+          {{ end }}
         </div>
       </div>
     </section>
