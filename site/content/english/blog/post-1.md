@@ -1,9 +1,9 @@
 ---
 title: "대표 활동: 종자 증식실 모니터링 시스템"
 meta_title: "2026-1학기 캡스톤 프로젝트"
-description: "this is meta description"
+description: "2026-1학기 캡스톤 프로젝트. IoT 센서 데이터 수집부터 데이터베이스 적재, 웹 대시보드 실시간 모니터링까지 구현하고 통합 검증한 활동입니다."
 date: 2026-10-14
-image: "/images/image-placeholder.png"
+image: "/images/seedlab-dashboard.png"
 categories: ["Application", "Data"]
 author: "Yeon"
 tags: ["IoT", "Arduino", "Raspberry Pi", "MQTT", "React", "Spring Boot", "WebSocket", "실시간 모니터링"]
