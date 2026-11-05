@@ -53,6 +53,8 @@ python3 -m http.server 8000 --directory public
 | 메뉴             | `site/config/_default/menus.en.toml`             |
 | 소셜 링크        | `site/data/social.json`                          |
 | 이미지           | `site/static/images/` (본문에서는 `/images/...`) |
+| 스타일 추가·수정 | `site/assets/css/custom.css`                     |
+| 레이아웃         | `site/themes/template/layouts/`                  |
 
 배포 주소(`baseURL`)는 `.github-pages.json`과 `site/pages.json`이 관리하므로 직접 고치지 않습니다.
 
@@ -93,5 +95,16 @@ git push origin main
 About 페이지는 프로필 이미지를 사용하지 않고 텍스트로만 소개합니다.
 출처와 이용 조건을 확인할 수 없는 외부 이미지는 사용하지 않았습니다.
 
-## 제외 파일 (P55)
-`.gitignore`로 다음 파일 제외: Hugo 빌드 결과물(`public/`, `resources/`), OS/IDE 임시파일(`.DS_Store`, `.vscode/` 등)
+## 제외 파일
+
+`.gitignore`로 제외하는 항목입니다.
+
+| 구분          | 항목                                                          |
+| ------------- | ------------------------------------------------------------- |
+| 빌드 결과물   | `public/`, `resources/`, `**/resources/_gen/`, `.hugo_build.lock` |
+| 의존성        | `node_modules/`                                               |
+| 도구 캐시·로그 | `.sass-cache`, `npm-debug.log`, `.pages-tools/`, `.tmp`, `.dist` |
+| 잠금 파일     | `package-lock.json`, `yarn.lock`, `go.sum`                    |
+| OS 임시 파일  | `.DS_Store`, `Thumbs.db`                                      |
+
+빌드에 필요한 `site/` 와 `.github/` 는 `!` 규칙으로 다시 포함해 Git에 기록합니다.
